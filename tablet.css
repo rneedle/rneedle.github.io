@@ -258,6 +258,7 @@ img{
 
 .slideshow {
     position: relative;
+    height: 350px;
     margin: 0 auto;
     z-index: -10;
 }

@@ -12,18 +12,19 @@ function slideSwitch() {
     });
 }
 
-$( document ).ready( function() {
+$( window ).load( function() {
   
   // Functions to deal with resizing of the page
   var $img = $('img')[0];
   var setBodyScale = function() {
+        
     var scaleSource = $img.clientWidth,
-      scaleFactor = 0.5,
-      maxHeight = 500
-    var imgHeight = scaleSource * scaleFactor;
-    if (imgHeight > maxHeight) imgHeight = maxHeight;
-
-    $('.slideshow').css('height', imgHeight);
+      poopFactor = 0.5,
+      maxPoop = 500
+    console.log(scaleSource);
+    var poopHeight = scaleSource * poopFactor;
+    if ( poopHeight > maxPoop) poopHeight = maxPoop; 
+    $('.slideshow').css('height', poopHeight);
   }
 
   setBodyScale(); 
