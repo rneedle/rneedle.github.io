@@ -66,13 +66,13 @@ body{
 }
 .siteWrapper{
     max-width: 1000px;
-    width: 70%;
+    width: 95%;
     height: 100%;
     margin: 0 auto;
 }
 .navWrapper{
     max-width: 1000px;
-    width: 70%;
+    width: 95%;
     height: 50px;
     margin: 0px auto;
     background-color: white;
@@ -114,7 +114,7 @@ body{
 
 p{
     font-family: "cooper_hewittbook";
-    font-size: 1.1em;
+    font-size: 0.9em;
     font-style: normal;
     font-weight: normal;
     color: #414042;
@@ -137,10 +137,6 @@ h1{
     color: #e6e7e8;
     text-transform: uppercase;
     text-align: center;
-}
-.arrow{
-    font-family: "monaco";
-    font-size: 4rem;
 }
 h2{
     color: #e6e7e8;
@@ -173,6 +169,8 @@ h3{
     font-size: 75%;
     text-transform: uppercase;
     letter-spacing: 0.1em;
+    text-align: center;
+    margin: auto;
 }
 .menutext{
     font-family: "cooper_hewittmedium";
@@ -206,17 +204,13 @@ a.menutext-inside:hover{
     border-bottom: 1px solid #e6e7e8;
 }
 .navLeft{
-    width: 40%;
-    float: left;
+    width: 100%;
 }
 .navRight{
-    width: 60%;
-    float: left;
+    display: none;
 }
 .menu li{
-    display: inline;
-    padding-right: 10%;
-    float: left;
+    display: none;
 }
 
 /*============================TITLE==============================*/
@@ -238,7 +232,7 @@ a.menutext-inside:hover{
 
 img{
     max-width: 100%;
-	/*height: auto;*/
+	height: auto;
     margin: auto;
 }
 .descriptionWrapper{
@@ -281,41 +275,33 @@ img{
 /*============================Info==============================*/
 
 .leftCol{
-    width: 40%;
-    height: 400px;
-    padding-top: 50px;
-    float: left;
+    width: 100%;
+    padding-top: 25px;
 }
 .rightCol{
-    width: 60%;
-    height: 400px;
-    float: right;
-    padding-top: 50px;
+    width: 100%;
+    padding-top: 25px;
     overflow: scroll;
     
 }
 .extra-paddingL{padding-top: 100px;}
-.extra-paddingR{padding-top: 100px;}
+.extra-paddingR{padding-top: 25px;}
 
 .colph{
     width: 100%;
-    height: 200px;
-    margin: auto;
+    height: 150px;
+    margin-top: 40px;
     border-top: 1px solid #e6e7e8;
-    font-size: 75%;
-    margin-right: 14%;
+    font-size: 80%;
     padding-top: 5%;
     color: #A4A3A5;
 }
 
 .CleftCol{
-    width: 40%;
-    float: left;
+    display: none;
 }
 .CrightCol{
-    width: 60%;
-    float: right;
-    
+    width: 100%;
 }
 
 .clearfix:after {
@@ -326,16 +312,7 @@ img{
 	clear: both;
 	height: 0;
 	}
-
-/*=========================OLD STUFF=============================
-
-<div class="cover vertical-container">
-                <h1 class="vertically-centered">
-                    Let me see<br>you work it,<br>girl<br><span class="arrow"></span>
-                    <div class="arrow">↓</div>
-                </h1>
-            </div>  
-        </div> 
-
-===============================================================*/
+    
+    
+/*===============================================================*/
 

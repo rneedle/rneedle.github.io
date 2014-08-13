@@ -15,24 +15,23 @@ function slideSwitch() {
 $( document ).ready( function() {
   
   // Functions to deal with resizing of the page
-  var $body = $('body');
+  var $img = $('img')[0];
   var setBodyScale = function() {
-    var scaleSource = $body.width(),
-      scaleFactor = 0.35,
-      maxHeight = 500,
-      minHeight = 200;
+    var scaleSource = $img.clientWidth,
+      scaleFactor = 0.5,
+      maxHeight = 500
     var imgHeight = scaleSource * scaleFactor;
     if (imgHeight > maxHeight) imgHeight = maxHeight;
-    if (imgHeight < minHeight) imgHeight = minHeight;
 
     $('.slideshow').css('height', imgHeight);
   }
 
-   $(window).resize(function(){
-     setBodyScale();
+  setBodyScale(); 
+  $(window).resize(function(){
+       setBodyScale() ;
    });
 
-   setBodyScale();
+
     
    // Handles the slideshow
    setInterval("slideSwitch()", 5000);

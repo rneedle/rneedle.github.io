@@ -66,13 +66,13 @@ body{
 }
 .siteWrapper{
     max-width: 1000px;
-    width: 70%;
+    width: 90%;
     height: 100%;
     margin: 0 auto;
 }
 .navWrapper{
     max-width: 1000px;
-    width: 70%;
+    width: 90%;
     height: 50px;
     margin: 0px auto;
     background-color: white;
