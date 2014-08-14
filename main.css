@@ -328,16 +328,28 @@ img{
 	height: 0;
 	}
 
-/*=========================OLD STUFF=============================
+/*=========================Sections headers=============================*/
 
-<div class="cover vertical-container">
-                <h1 class="vertically-centered">
-                    Let me see<br>you work it,<br>girl<br><span class="arrow"></span>
-                    <div class="arrow">↓</div>
-                </h1>
-            </div>  
-        </div> 
 
-===============================================================*/
+.designTitle{
+    color: #A4A3A5;
+    font-size: 75%;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    padding-top: 20px;
+
+
+}    
+#first{
+    padding-top: 25px;
 
 }
+.sectionBreak{
+    width: 100%;
+    padding-top: 48px;
+    border-bottom: 1px solid #e6e7e8;
+
+}
+    
+/*===============================================================*/
+

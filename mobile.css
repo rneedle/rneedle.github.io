@@ -315,6 +315,26 @@ img{
 	}
     
     
-/*===============================================================*/
+/*=========================Sections headers=============================*/
+
+.designTitle{
+    color: #A4A3A5;
+    font-size: 75%;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    padding-top: 20px;
+    text-align: center;
+    margin: auto;
+}    
+#first{
+    padding-top: 25px;
 
 }
+.sectionBreak{
+    width: 100%;
+    padding-top: 48px;
+    border-bottom: 1px solid #e6e7e8;
+
+}
+    
+/*===============================================================*/
