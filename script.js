@@ -35,5 +35,5 @@ $( window ).load( function() {
 
     
    // Handles the slideshow
-   setInterval("slideSwitch()", 5000);
+   setInterval("slideSwitch()", 3500);
  });
