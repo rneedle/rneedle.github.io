@@ -17,11 +17,9 @@ $( window ).load( function() {
   // Functions to deal with resizing of the page
   var $img = $('img')[0];
   var setBodyScale = function() {
-        
-    var scaleSource = $img.clientWidth,
-      poopFactor = 0.5,
-      maxPoop = 500
-    console.log(scaleSource);
+    var scaleSource = $img.clientWidth;
+    var poopFactor  = 0.5;
+    var maxPoop     = 500;
     var poopHeight = scaleSource * poopFactor;
     if ( poopHeight > maxPoop) poopHeight = maxPoop; 
     $('.slideshow').css('height', poopHeight);
